@@ -39,3 +39,6 @@ __screenshots__/
 auto-imports.d.ts
 components.d.ts
 
+# Project CLI & NPM Config
+cli/
+.npmrc
