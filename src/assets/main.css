@@ -1,6 +1,7 @@
 @import "./tailwind.css";
 
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -18,3 +19,25 @@ html, body {
 /* html * {
     transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease!important;
 } */
+
+.scrollbar-custom {
+    scroll-behavior: smooth;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.scrollbar-custom:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 163, 175, 0.3);
+}
